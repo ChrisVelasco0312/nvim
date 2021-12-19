@@ -17,7 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ryanoasis/vim-devicons'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-
     "---THEMES---"
     Plug 'dracula/vim'
     Plug 'cseelus/vim-colors-lucid'
@@ -27,6 +26,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     "Easy Motion
     Plug 'Lokaltog/vim-easymotion'
+    "For scheme
+    Plug 'amdt/vim-niji'
+    Plug 'sjl/tslime.vim'
     "--KNOWARK
     Plug 'mattn/emmet-vim'   
     Plug 'cakebaker/scss-syntax.vim'
